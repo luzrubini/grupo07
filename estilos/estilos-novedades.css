@@ -160,12 +160,9 @@ header li {
     display: inline-block;
 }
 
-#logo {
-    padding-top: 15px;
-    padding-left: 10px;
-    float: left;
 
-}
+
+
 
 header a {
     color: var(--blanco);
