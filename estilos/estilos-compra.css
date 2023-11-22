@@ -112,6 +112,7 @@ body {
 .div_precios button {
     border-radius: 10%;
     font-weight: bold;
+    color: var(--amarillo);
 }
 
 .detalle_precios {
