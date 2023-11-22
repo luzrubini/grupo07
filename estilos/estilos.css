@@ -68,7 +68,6 @@ header a:hover {
 
 }
 #contenedor-pagina{
-    position: relative;
     min-height: 90vh;
 }
 body {
