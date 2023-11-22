@@ -72,7 +72,16 @@ body {
     border-radius: 5px;
 }
 
-
+.brand {
+    text-align: center;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+  }
+  
+  .brand span {
+    color: var(--blanco);
+  }
 .imges {
     width: 20%;
     max-width: 20%;
@@ -81,8 +90,9 @@ body {
 
 .precios {
     display: flex;
+    width: 900px;
     flex-direction: column;
-    padding: 2%;
+    padding: 15px;
 }
 
 .div_precios {
@@ -90,6 +100,8 @@ body {
     padding: 1%;
     align-items: center;
     margin-bottom: 15px;
+    background-color: #e77d9998;
+    border: solid #f24b4b;
 }
 
 .div_precios p {
@@ -118,16 +130,20 @@ body {
 }
 
 .main_compra {
+
     display: flex;
+    flex-flow: row wrap;
+    align-items: center;
     justify-content: center;
-    flex-direction: row;
 }
 
 .elon {
+    width: 600px;
     padding: 1%;
     display: flex;
     flex-wrap: wrap;
     height: fit-content;
+    justify-content: center
 }
 
 #frame1 {
